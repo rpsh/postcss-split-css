@@ -1,0 +1,24 @@
+{
+    "name": "postcss-split-css",
+    "version": "1.0.0",
+    "description": "Split the specified css rules into another file.",
+    "keywords": [
+        "postcss",
+        "css",
+        "ie",
+        "split css",
+        "split css rules",
+        "split selectors"
+    ],
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "rpsh",
+    "license": "MIT",
+    "repository": "rpsh/postcss-split-css",
+    "bugs": {
+        "url": "https://github.com/rpsh/postcss-split-css/issues"
+    },
+    "homepage": "https://github.com/rpsh/postcss-split-css"
+}
