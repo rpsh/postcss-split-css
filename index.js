@@ -10,7 +10,7 @@ module.exports = postcss.plugin('postcss-split-css', (options) => {
 
     let removeAtRules = ['font-face', 'import', 'keyframes'];
 
-    let pattern = new RegExp((options.filter.join("|")).replace(/\./g, '\\.'), 'gi');
+    let pattern = new RegExp((options.filter.join("|")).replace(/\./g, '\\.'), 'g');
 
     return (root) => {
 

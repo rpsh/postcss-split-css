@@ -10,7 +10,7 @@ gulp.task('clean', () => {
 
 gulp.task('sass', gulp.series('clean', () => {
     return gulp
-        .src('./src/sass/*.scss')
+        .src('./src/sass/**/*.scss')
         .pipe(
             sass({
                 outputStyle: "compact",

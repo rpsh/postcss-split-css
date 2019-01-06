@@ -26,6 +26,8 @@ postcss([
 ]);
 ```
 
+Before:
+
 ```CSS
 /* style.css */
 body{
@@ -42,6 +44,8 @@ div {
 }
 ```
 
+After:
+
 ```CSS
 /* style.css */
 body{
@@ -50,7 +54,9 @@ body{
 div {
     color: #ff0;
 }
+```
 
+```CSS
 /* style.ie.css */
 .lte_ie9 div{
 	color: #f0f
